@@ -1,0 +1,38 @@
+#search-section{
+    padding: 0;
+    min-height:100vh;
+}
+
+#search-box{
+    padding: 20px;
+    background-color: #cddbe7;
+    height: 100%;
+}
+
+#search-box input, #search-box select, #search-box button, #search-box a{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#result-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#results-section{
+    background-color: #9bb7d0 
+}
+
+.result{
+    background-color: beige;
+    border: solid black 1px;
+    padding: .5rem;
+    width: 40%;
+    margin: 1rem;
+}
+
+img {
+    max-width: 200px;
+}
